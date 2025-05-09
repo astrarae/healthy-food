@@ -590,3 +590,63 @@
         margin-top: 1000px;
     }
 }
+
+@media screen and (max-width:1441px){
+    .header-info-buttons{
+        width: 50%;
+    }
+    .line{
+        padding: 0;
+        margin-right: 270px;
+    }
+
+    
+    .good-time-info-text1{
+        font-size: 35px;
+    }
+    .good-time-info-text2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 78%;   
+        font-size: 20px;
+    }
+    .food-passion-line{
+        width: 100%;
+    }
+
+    .food-passion-line-text2{
+        font-size: 35px;
+    }
+
+    .passion-food-header{
+        padding: 0;
+        padding-left: 41px;
+    }
+
+    .indent1{
+        padding: 0;
+        padding-left: 6px;
+    }
+
+    .indent2{
+        padding: 0;
+        padding-left: 50px;
+    }
+
+    .about-us{
+        width: 130%;
+        position: relative;
+        right: 90px;
+    }
+
+    .pinterest-tech{
+        width: 150%;
+    }
+
+    .booking-btn{
+        position: relative;
+        left: 160px;
+    }
+}
+
+
