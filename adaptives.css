@@ -1,0 +1,585 @@
+/* ==== Laptop Port ==== */
+
+@media screen and (max-width:1025px){
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    html, body{
+        overflow-x: hidden;
+    }
+    body{
+        width: 95%;
+    }
+    .header{
+        margin-left: 13%;
+        height: 70px;
+        width: 93%;
+        flex-direction: row;
+    }
+    .booking-btn button{
+        width: 90px;
+        height: 35px;
+        
+    }
+    .booking-btn{
+        padding-top: 8px;
+        padding-right: 180px;
+    }
+    .booking-btn-text{
+        font-size: 13px;
+    }
+    .booking-btn-text2{
+        display: none;
+    }
+    
+    .header-info-buttons{
+        width: 60%;
+    }
+    .empty-box{
+        display: none;
+    }
+    .good-time{
+        height: 500px;
+        padding-left: 17%;
+        
+    }
+
+    .good-time img{
+        display: none;
+    }
+
+    .good-time-info-text1{
+        font-size: 39px;
+    }
+    .good-time-info-text2{
+        font-size: 11.5px;
+    }
+
+    .line{
+        padding-right: 250px;
+    }
+    
+    .food-passion{
+        padding-top: 150px;
+    }
+
+    .passion-line-cards{
+        width: 70%;
+        flex-direction: row;
+        margin-left: 15%;
+    }
+
+    .food-passion-line{
+        width: 100%;
+        margin-left: 7%;
+    }
+
+    .passion-food-header{
+        padding-left: 9.5px;
+        font-size: 20px;
+    }
+
+    .passion-food-text-box{
+        width: 130%;
+    }
+
+    .passion-image-box1{
+        margin-right: 65px;
+    }
+    
+    .passion-image-box2{
+        margin-right: 57px;
+    }
+    
+    .passion-image-box3{
+        margin-right: 67.5px;
+    }
+
+    #food-delivery{
+        padding-left: 3px;
+    }
+
+    .indent1{
+        padding-left: 5.5px;
+    }
+    
+    .indent2{
+        padding-left: 35.5px;
+    }
+    .about-us{
+        padding-top: 175px;
+    }
+
+    .about-us-info{
+        width: 50%;
+    }
+    .about-us-image img{
+        width: 385px;
+        height: 385px;
+        transition: 0.4s;
+    }
+    .about-us-image img:hover{
+        transform: translate(10px,-5px);
+    }
+
+    .about-us-h2{
+        font-size: 34px;
+    }
+
+    .about-us-text{
+        font-size: 15px;
+    }
+   
+    .pinterest-tech{
+        flex-direction: row;
+        gap: 0;
+    }
+    .menu-cards{
+        margin-top: 600px;
+    }
+  
+    .menu-cards-line{
+        flex-direction: column;
+        height: 1490px;
+        padding-left: 0;
+        padding-right: 20px;
+    }
+
+    #menu-cards-line1{
+        padding-top: 350px;
+        
+    }
+
+    .footer{
+        margin-top: 750px;
+        width: 170%;
+    }
+
+    .logo-and-links{
+        width: 5%;
+        padding-left: 405px;
+        
+    }
+}
+
+
+
+/* === Tablet Port === */
+@media screen and (max-width:769px){
+    .header{
+        width: 110%;
+        margin: 0;
+        margin-left: 5%;
+    }
+
+    .good-time{
+        margin: 0;
+        padding: 0;
+        margin-left: 14%;
+    }
+
+    .good-time-info{
+        width: 65%;
+    }
+
+    .line{
+        padding-right: 300px;
+    }
+
+    .menu-cards-line{
+        flex-direction: column;
+        height: 1590px;
+        padding-left: 0;
+        justify-content: space-between;
+        gap: 65px;
+    }
+
+    .menu-card{
+        width: 90%;
+        height: 80%;
+    }
+    .menu-card img{
+        width: 100%;
+
+    }
+
+    .food-passion{
+        padding-top: 70px;
+    }
+
+    .passion-food-text-box p{
+        font-size: 10px;
+        width: 120%;
+    }
+
+    .passion-line-cards{
+        width: 90%;
+    }
+
+    #food-delivery{
+        padding: 0;
+        padding-left: 10%;
+    }
+
+    #quality-food{
+        padding: 0;
+        padding-left: 12%;
+    }
+
+    #super-taste{
+        padding: 0;
+        padding-left: 14%;
+    }
+
+    .passion-image-box1{
+        margin: 0;
+        margin-right: 33%;
+    }
+    
+    .passion-image-box2{
+        margin: 0;
+        margin-right: 33%;
+    }
+        
+        
+    .passion-image-box3{
+        margin: 0;
+        margin-right: 30%;
+    }
+
+    .about-us img{
+        height: 340px;
+        width: 340px;
+    }
+
+    .about-us-h2{
+        font-size: 27px;
+    }
+
+    .about-us-text{
+        font-size: 11px;
+    }
+
+    .read-more{
+        height: 40px;
+        width: 120px;
+    }
+
+    .menu-text{
+        font-size: 14px;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .footer-mobile{
+        margin-top: 650px;
+        display: flex;
+        width: 100%;
+        height: 550px;
+        background-color: #252525;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-mobile-header{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 60px;
+    }
+
+    .footer-mobile-header img{
+        width: 65px;
+        height: 65px;
+        padding-right: 445px;
+        padding-top: 170px;
+    }
+
+    .footer-mobile-links{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .footer-mobile-links-box{
+        width: 20%;
+    }
+    
+    .footer-mobile-links-box p{
+        font-size: 23px;
+        font-family: 'Philosopher', sans-serif;
+        font-weight: 700;
+        color: aliceblue;
+    }
+    
+    .footer-mobile-links-box {
+        height: 170px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .footer-mobile-links-box a:hover{
+        color: #DC780B;
+        transform: scale(1.5);
+    }
+
+    .footer-mobile-links-set{
+        margin: 5px;
+    }
+
+
+}
+
+
+@media screen and (max-width:376px){
+    .header a{
+        display: none;
+        
+    }
+    .empty-box{
+        display: none;
+    }
+    .booking-btn{
+        padding: 0;
+        margin: 0;
+        padding-right: 20%;
+        padding-top: 10px;
+    }
+
+    .good-time{
+        display: none;
+        
+    }
+
+    .mobile-menu{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        padding-bottom: 90px;
+    }
+
+    .mobile-menu img{
+        height: 240px;
+        width: 100%;
+
+    }
+
+    .good-info-text-box{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .good-info-text-box{
+        width: 90%;
+        padding: 0;
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    .good-time-info-text1{
+        font-size: 21px;
+    }
+    .good-time-info-text2{
+        padding: 0;
+        margin: 0;
+        padding-right: 33px;
+        font-size: 8px;
+    }
+
+    .now{
+        display: none;
+    }
+
+    .line{
+        padding: 0;
+        margin: 0;
+        padding-left: 6%;
+        padding-top: 3%;
+
+    }
+
+    .order-btn{
+        width: 275px;
+        height: 40px;
+    }
+
+    .food-details-btn{
+        width: 275px;
+        height: 40px;
+    }
+
+    .food-passion{
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        
+    }
+
+    .passion-line-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    .food-passion-line-text2{
+        font-size: 29px;
+    }
+
+    #passion-card-number1{
+        padding: 0;
+        margin: 0;
+        margin-right: 55%;
+    }
+    #passion-card-number2{
+        padding: 0;
+        margin: 0;
+        margin-left: 55%;
+    }
+    #passion-card-number3{
+        
+        padding: 0;
+        margin: 0;
+        margin-right: 55%;
+    }
+
+    .passion-food-text-box{
+        width: 290%;
+        padding-left: 50%;
+    }
+    .passion-food-text-box p{
+        font-size: 10.3px;
+    }
+
+    #super-taste{
+        padding: 0;
+        margin: 0;
+        padding-left: 12.5%;
+    }
+
+    #food-delivery{
+        padding-left: 10.5%;
+    }
+
+    #menu-block{
+        margin-top: 370px;
+        padding: 0;
+        height: 300px;
+    }
+    .menu-header-h1{
+        padding: 0;
+        padding-right: 20px;
+    }
+    
+    .menu-header-h2{
+        padding: 0;
+        padding-right: 17px;
+    }
+
+    .menu-text{
+        width: 100%;
+    }
+    
+    .menu-text p{
+        font-size: 15px;
+        margin: 1.5px;
+    }
+
+    .menu-text-indent{
+        padding-left: 0px;
+    }
+    
+    
+   .about-us{
+       flex-direction: column;
+       height: 150px;
+       justify-content: flex-start;
+    }
+    .about-us img{
+        margin: 0;
+        padding: 0;
+        height: 260px;
+        width: 260px;
+        margin-bottom: 300px;
+    }
+    
+    .about-us-image{
+        padding-top: 100px;
+        padding-right: 31.5%;
+        
+    }
+    
+
+    .about-us-image img:hover{
+        transform: translate(0px,0px);
+    }
+
+    .about-us-info{
+        width: 100%;
+        height: 200%;
+        flex-direction: column;
+        
+    }
+
+    .menu-cards{
+        padding-top: 20px;
+    }
+
+    
+   
+
+    .pinterest-tech{
+       display: none;
+    }
+    .mobile-menu-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+       
+        width: 100%;
+        height: 100%;
+        padding-bottom: 1000px;
+        gap: 30px;
+    }
+
+    .menu-card{
+        height: 70%;
+    }
+
+    .footer-mobile-header{
+        display: none;
+    }
+    .footer-mobile{
+        height: 300px;
+        margin-top: 850px;
+    }
+
+    #footer-mobile-links-box2{
+        display: none;
+    }
+    .footer-mobile-links-box{
+        margin: 30px;
+        padding-right: 50px;
+    }
+
+    .cart{
+        height: 37.8px;
+        width: 37.8px;
+        padding-bottom: 17px;
+    }
+}

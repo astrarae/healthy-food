@@ -1,0 +1,694 @@
+html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    cursor: url("assets/img/arrowhead.svg") , auto;
+}
+body{
+    height: 100%;
+    width:60%;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+.mobile-menu{
+    display: none;
+}
+
+
+.mobile-menu-cards{
+    display: none;
+}
+
+
+.footer-mobile{
+    display: none;
+}
+
+
+
+
+.empty-box{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+
+.header{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 2.8%;
+    
+}
+
+.booking-btn{
+    width: 165px;
+    height: 45px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 75px;
+    
+}
+
+.booking-btn button{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color:#DC780B;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(235, 233, 233);
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.booking-btn button:hover{
+    background-color: #f1e7dd;
+    border: 2px solid #DC780B;
+    color: #DC780B;
+}
+
+
+.header-info-buttons{
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+   
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #5f5c58;
+    transition: 0.4s;
+}
+
+.food-links{
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.food-links:hover{
+    transform: scale(1.35);
+    color: #DC780B;
+}
+
+.food-logo{
+    color: red;
+    font-weight: 900;
+}
+
+
+.good-time{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 800px;
+    padding-left: 4%;
+}
+
+
+.good-time-info{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+
+}
+
+.good-info-text-box{
+    margin-left: -12%;
+}
+
+
+.good-time-info-text1{
+    padding-right: 100px;
+    font-size: 55px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 700;
+
+}
+
+.good-time-info-text2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #5f5c58;
+}
+
+
+.frying-pan{
+    width: 50%;
+    height: 100%;
+}
+
+.line{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 405px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.order-btn{
+    width: 260px;
+    height: 46px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.order-btn button{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color:#DC780B;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(235, 233, 233);
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.order-btn button:hover{
+    border: 2px solid #DC780B;
+    background-color: #f1e7dd;
+    color: #DC780B;
+}
+
+.food-details-btn{
+    width: 260px;
+    height: 46px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.food-details-btn button{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border:1px solid #DC780B;
+    background-color:white;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(221, 145, 5);
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.food-details-btn button:hover{
+    border: none;
+    background-color: rgb(227, 227, 227);
+    color: #DC780B;
+    border: 2px solid #DC780B;
+}
+
+
+
+
+.food-passion{
+    width: 90%;
+    height: 100px;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.food-passion-line{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.food-passion-line p{
+    margin: 0;
+    padding: 2px;
+}
+
+.passion-line-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.passion-card{
+    height: 100%;
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.passion-food-header{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Philosopher', sans-serif;
+    color: black;
+    padding-left: 85px;
+}
+
+.passion-food-text-box p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 200;
+    font-size: 0.8vw;
+    color: #5f5c58;
+}
+
+.indent1{
+    padding-left: 10px;
+}
+
+.indent2{
+    padding-left: 72px;
+}
+
+.passion-food-text{
+    display: flex;
+}
+
+
+.food-passion-line-text1{
+    color: #edb67c;
+    font-weight: 300;
+    font-family: 'Roboto',sans-serif;
+}
+.food-passion-line-text2{
+    font-size: 30px;
+    font-family: 'Philosopher',sans-serif;
+    font-weight: 700;
+}
+
+.passion-image-box1{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: #e6efc4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.passion-image-box2{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: #f4cdc5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.passion-image-box3{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: #f1e7dd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.about-us{
+    padding-right: 7%;
+    padding-top:250px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us-image{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.about-us-image img{
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.about-us-image img:hover{
+   
+    transform: scale(1.08);
+    border-radius: 20px;
+    border: 4px solid #DC780B;
+
+}
+
+.about-us-info{
+    width: 47%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.about-us-header p{
+    margin: 0;
+}
+
+.about-us-h1{
+    white-space: pre;
+    color: #eda75b;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
+.about-us-h2{
+    font-family: 'Philosopher',sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.about-us-text{
+    font-family: 'Roboto',sans-serif;
+    color: #5f5c58;
+}
+.about-us-text p{
+    margin: 5px;
+}
+
+.read-more{
+    height: 50px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    padding-left: 4px;
+}
+.read-more button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius:4px;
+    outline: none;
+    background-color: #DC780B;
+    color: #f1e7dd;
+    font-family: sans-serif;
+    font-weight: 700;
+    transition: 0.2s;
+}
+.read-more button:hover{
+    background-color: #f1e7dd;
+    color: #DC780B;
+    border: 2px solid #DC780B;
+}
+
+.menu-cards{
+    margin-top: 175px;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pinterest-tech{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.menu-header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu-header p{
+    margin: 6px;
+}
+.menu-text{
+    font-family: 'Roboto',sans-serif;
+    color: #5f5c58;
+    margin-bottom: 35px;
+}
+
+.menu-text-indent{
+    padding-left: 90px;
+}
+
+
+.menu-header-h1{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    color: #eda75b;
+}
+.menu-header-h2{
+    font-family: 'Philosopher',sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.menu-cards-line{
+    width: 90%;
+    height: 350px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 13px;
+
+}
+
+.menu-card{
+    width: 360px;
+    height:446px;
+    border: 2px solid rgb(233, 230, 230);
+    border-radius: 20px;
+    border-top-left-radius: 75px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.menu-card:hover{
+    transform: translate(-10px, -30px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6)
+}
+
+.menu-card-image-frame img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+.menu-card-name-and-price{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.menu-card-name-and-price p{
+    padding-right: 20px;
+    padding-left: 17px;
+    padding-top: 10px;
+    margin: 0;
+    font-family: 'Philosopher',sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.menu-card-descr{
+    padding-left: 17px;
+    font-family: 'Roboto',sans-serif;
+    color: #5f5c58;
+}
+
+.menu-card-review{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.cart{
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 17px;
+}
+.cart button{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #DC780B;
+    color: #f1e7dd;
+    font-size: 32px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+.cart button:hover{
+    background-color: #f1e7dd;
+    color: #DC780B;
+    border: 2px solid #DC780B;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.stars{
+    padding-top: 2px;
+    padding-right: 15px;
+    height: 30px;
+    width: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.stars img{
+    width: 20px;
+    height: 20px;
+    transition: 0.2s;
+}
+
+.stars img:hover{
+    transform: scale(1.35);
+}
+
+.delmonico-text{
+    font-size: 26px;
+}
+
+
+.footer{
+    display: flex;
+    margin-left: -33.5%;
+    width: 167%;
+    height: 430px;
+    background-color: #252525;
+    display: flex;
+    margin-top: 175px;
+    gap: 145px;  
+}
+
+.logo-and-links{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo-and-links img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px;
+    transition: 0.2s;
+}
+.logo-and-links img:hover{
+    border-radius: 50%;
+    border: 3px solid #DC780B;
+    transform: scale(1.3);
+}
+.logo-and-links a{
+    color: #c1bcb7;
+    margin: 3px;
+    transition: 0.2s;
+}
+.logo-and-links a:hover{
+    transform: scale(1.3);
+    color: #DC780B;
+}
+
+.logo-and-links-frame{
+    display: flex;
+    flex-direction: column;
+}
+
+.links-frame{
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer-links{
+    width: 7%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links a{
+    margin: 3px;
+    font-family: 'Roboto',sans-serif;
+    color: #dad3cc;
+    transition: 0.2s;
+}
+.footer-links a:hover{
+    color: #DC780B;
+    transform: scale(1.35);
+}
+
+.footer-links p{
+    padding-left: 3px;
+    font-family: 'Philosopher',sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
